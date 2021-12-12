@@ -1,0 +1,34 @@
+.btn-success:hover {
+    background-color: red;
+}
+
+#start:hover {
+    font-weight: bolder;
+ }
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-style: dashed;
+    margin-top: 10%;
+}
+
+@keyframes example {
+    from {box-shadow: 1px, 1px, 38px red;}
+    to {box-shadow: 1px, 1px, 38px yellow;}
+}
+
+h3 {
+    font-size: 25px!important;
+}
+
+h3:hover {
+    font-weight: bolder;
+}
+
+#name:hover {
+    background-color: rgb(85, 224, 31);
+    color: rgb(74, 117, 0);
+    font-weight: 600;
+}
